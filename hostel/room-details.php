@@ -1,4 +1,4 @@
-<?php
+ <?php
 session_start();
 include('includes/config.php');
 include('includes/checklogin.php');
@@ -178,7 +178,7 @@ echo $dr*$fpm;
 
 
 <?php
-$cnt=$cnt+1;
+$cnt=$cnt+1; -->
 } ?>
 </tbody>
 </table>
@@ -190,7 +190,7 @@ $cnt=$cnt+1;
 </div>
 </div>
 
-	<!-- Loading Scripts -->
+	 <!-- Loading Scripts -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap-select.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -203,4 +203,4 @@ $cnt=$cnt+1;
 
 </body>
 
-</html>
+</html> -->

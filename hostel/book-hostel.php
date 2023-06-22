@@ -1,4 +1,4 @@
-<?php
+ <?php
 session_start();
 include('includes/config.php');
 include('includes/checklogin.php');
@@ -484,4 +484,4 @@ $(document).ready(function() {
 })});
 </script>
 
-</html>
+</html> 

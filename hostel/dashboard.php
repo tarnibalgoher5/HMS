@@ -125,7 +125,6 @@ check_login();
 </body>
 
 <div class="foot"><footer>
-<p> Brought To You By <a href="https://code-projects.org/">Code-Projects</p>
 </footer> </div>
 
 
