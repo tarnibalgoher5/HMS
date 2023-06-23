@@ -157,7 +157,8 @@ return true;
 margin-right:15px; background-color:green;" 
 name="submit" Value="Register" class="btn btn-primary">
 
-<button class="btn btn-default"  style="padding: 15px 25px;border-radius: 1.75rem; font-size:15px; line-height:.5rem;""
+<button class="btn btn-default"  style="padding: 15px 25px;
+border-radius: 1.75rem; font-size:15px; line-height:.5rem;""
  type="submit">Cancel</button>
 
 </div>

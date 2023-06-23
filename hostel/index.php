@@ -86,7 +86,9 @@ return true;
 
 						<div class="row">
 					<div class="col-md-6 col-md-offset-3">
-						<div class="well row pt-2x pb-3x bk-light">
+						<div class="well row pt-2x pb-3x bk-light" style="border:solid;
+						border-width: 2px; box-shadow: 3px 5px;
+						 border-color: gray; border-radius: 1.75rem;">
 							<div class="col-md-8 col-md-offset-2">
 							
 								<form action="" class="mt" method="post">
@@ -98,9 +100,11 @@ return true;
 
 									<input type="submit" name="login" class="btn btn-primary btn-block" 
 									style="padding: 20px 25px;border-radius: 1.75rem; font-size:20px; 
-									margin-right:15px; margin-bottom:10px; background-color:green; line-height:.5rem; " value="LOGIN" >
+									margin-right:15px; margin-bottom:10px; background-color:green; 
+									line-height:.5rem;  " value="LOGIN" >
 
-									<a href="forgot-password.php" style="color:blue; text-align:centre; padding-left:30%; margin:7px 7px;">Forgot password?</a>
+									<a href="forgot-password.php" style="color:blue; 
+									text-align:centre; padding-left:30%; margin:7px 7px;">Forgot password?</a>
 								</form>
 							</div>
 						</div>
