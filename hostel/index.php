@@ -87,8 +87,8 @@ return true;
 						<div class="row">
 					<div class="col-md-6 col-md-offset-3">
 						<div class="well row pt-2x pb-3x bk-light" style="border:solid;
-						border-width: 2px; box-shadow: 3px 5px;
-						 border-color: gray; border-radius: 1.75rem;">
+						border-width: 1px; box-shadow: 3px 5px #C4BFBF;
+						 border-color: #C4BFBF; border-radius: 1.75rem;">
 							<div class="col-md-8 col-md-offset-2">
 							
 								<form action="" class="mt" method="post">
