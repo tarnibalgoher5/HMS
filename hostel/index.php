@@ -82,14 +82,14 @@ return true;
 				<div class="row">
 					<div class="col-md-12">
 					
-						<h2 class="page-title" style="font-weight: 700; line-height:1.8;">User Login </h2>
+						<h2 class="text-center page-title" style="font-weight: 700; line-height:1.8;">User Login </h2>
 
 						<div class="row">
-					<div class="col-md-6 col-md-offset-3">
+					<div class="col-md-6 col-md-offset-3" >
 						<div class="well row pt-2x pb-3x bk-light" style="border:solid;
-						border-width: 1px; box-shadow: 3px 5px #C4BFBF;
+						border-width: 1px; box-shadow: 3px 5px #C4BFBF; background-color:#9DD6EF;
 						 border-color: #C4BFBF; border-radius: 1.75rem;">
-							<div class="col-md-8 col-md-offset-2">
+							<div class="col-md-8 col-md-offset-2" >
 							
 								<form action="" class="mt" method="post">
 									<label for="" class="text-uppercase text-sm" style="font-size: 15px;" style="font-size: 15px;">Email</label>
@@ -104,7 +104,8 @@ return true;
 									line-height:.5rem;  " value="LOGIN" >
 
 									<a href="forgot-password.php" style="color:blue; 
-									text-align:centre; padding-left:30%; margin:7px 7px;">Forgot password?</a>
+									text-align:centre; padding-left:30%; margin:7px 7px;">
+									Forgot password?</a>
 								</form>
 							</div>
 						</div>

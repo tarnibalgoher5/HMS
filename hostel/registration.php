@@ -63,7 +63,7 @@ return true;
 				<div class="row">
 					<div class="col-md-12" style="">
 					
-					<div class="col-md-12">	<h2 class="page-title" style="font-weight: 700; line-height:1.8 
+					<div class="col-md-12">	<h2 class="text-center page-title" style="font-weight: 700; line-height:1.8 
 ">Student Registration </h2></div>
 
 						<div class="row">
@@ -77,36 +77,36 @@ return true;
 										
 
 <div class="form-group">
-<label class="col-sm-2 control-label" style="font-size: 15px;"> Registration No : </label>
-<div class="col-sm-8">
+<label class="col-sm-2 control-label " id="labels" style="font-size: 15px; text-align:left;"> Registration No : </label>
+<div class=" col-sm-8">
 <input type="text" name="regno" id="regno"  class="form-control" required="required" >
 </div>
 </div>
 
 
 <div class="form-group">
-<label class="col-sm-2 control-label">First Name : </label>
+<label class="col-sm-2 control-label" id="labels" style="text-align:left;">First Name : </label>
 <div class="col-sm-8">
 <input type="text" name="fname" id="fname"  class="form-control" required="required" >
 </div>
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Middle Name : </label>
+<label class="col-sm-2 control-label" id="labels" style="text-align:left;">Middle Name : </label>
 <div class="col-sm-8">
 <input type="text" name="mname" id="mname"  class="form-control">
 </div>
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Last Name : </label>
+<label class="col-sm-2 control-label" id="labels"  style="text-align:left;">Last Name : </label>
 <div class="col-sm-8">
 <input type="text" name="lname" id="lname"  class="form-control" required="required">
 </div>
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Gender : </label>
+<label class="col-sm-2 control-label" id="labels"  style="text-align:left;">Gender : </label>
 <div class="col-sm-8">
 <select name="gender" class="form-control" required="required">
 <option value="">Select Gender</option>
@@ -118,7 +118,7 @@ return true;
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Contact No : </label>
+<label class="col-sm-2 control-label" id="labels"  style="text-align:left;">Contact No : </label>
 <div class="col-sm-8">
 <input type="text" name="contact" id="contact"  class="form-control" required="required">
 </div>
@@ -126,7 +126,7 @@ return true;
 
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Email id: </label>
+<label class="col-sm-2 control-label" id="labels"  style="text-align:left;">Email id: </label>
 <div class="col-sm-8">
 <input type="email" name="email" id="email"  class="form-control" onBlur="checkAvailability()" required="required">
 <span id="user-availability-status" style="font-size:12px;"></span>
@@ -134,7 +134,7 @@ return true;
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Password: </label>
+<label class="col-sm-2 control-label" id="labels"  style="text-align:left;">Password: </label>
 <div class="col-sm-8">
 <input type="password" name="password" id="password"  class="form-control" required="required">
 </div>
@@ -142,7 +142,7 @@ return true;
 
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Confirm Password : </label>
+<label class="col-sm-2 control-label" id="labels"  style="text-align:left;">Confirm Password: </label>
 <div class="col-sm-8">
 <input type="password" name="cpassword" id="cpassword"  class="form-control" required="required">
 </div>
@@ -153,7 +153,8 @@ return true;
 
 <div class="col-md-6 col-sm-offset-4"> 
 
-<input type="submit" style="padding: 15px 25px; border-radius: 1.75rem; font-size:15px;  line-height:.5rem;
+<input type="submit" style="padding: 15px 25px; border-radius: 1.75rem;
+ font-size:15px;  line-height:.5rem;
 margin-right:15px; background-color:green;" 
 name="submit" Value="Register" class="btn btn-primary">
 

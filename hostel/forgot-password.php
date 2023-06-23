@@ -44,32 +44,47 @@ $stmt=$mysqli->prepare("SELECT email,contactNo,password FROM userregistration WH
 </head
 <body>
 	
-	<div class="login-page bk-img" style="background-image: url(img/login-bg.jpg);">
+	<div class="login-page bk-img" style="">
 		<div class="form-content">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
-						<h1 class="text-center text-bold text-light mt-4x">Forgot Password</h1>
-						<div class="well row pt-2x pb-3x bk-light">
+						<h1 class="text-center text-bold  mt-4x">Forgot Password</h1>
+
+						<div class="well row pt-2x pb-3x bk-light" style=" border-color: #C4BFBF;
+						 border-width: 1px; box-shadow: 3px 5px #C4BFBF; border-radius: 1.75rem;
+						background-color:#9DD6EF;">
 							<div class="col-md-8 col-md-offset-2">
 							<?php if(isset($_POST['login']))
 { ?>
-					<p>Yuor Password is <?php echo $pwd;?><br> Change the Password After login</p>
+					<p>Your Password is <?php echo $pwd;?><br> Change the Password After login</p>
 					<?php }  ?>
 								<form action="" class="mt" method="post">
 									<label for="" class="text-uppercase text-sm">Your Email</label>
-									<input type="email" placeholder="Email" name="email" class="form-control mb">
+									<input type="email" placeholder="Email" name="email" 
+									class="form-control mb">
 									<label for="" class="text-uppercase text-sm">Your Contact no</label>
-									<input type="text" placeholder="Contact no" name="contact" class="form-control mb">
+									<input type="text" placeholder="Contact no" name="contact" 
+									class="form-control mb">
 									
-
-									<input type="submit" name="login" class="btn btn-primary btn-block" value="login" >
+								<div class="login-btn" style="display:flex; justify-content:center;"> 
+									<input type="submit" name="LOGIN" 
+									class="btn btn-primary btn-block" style="padding: 20px 25px;border-radius: 1.75rem; font-size:20px; 
+									margin:7px 15px 10px 7px;
+									background-color:green; 
+									line-height:.5rem; width:50% " value="LOGIN" >
+									</div>
 								</form>
+
+								<div class="text-center ">
+							<a href="index.php" class="" style=" font-size:15px
+							font-weight:600; line-height:3em;
+									text-align:centre; margin:7px 7px;">
+								SIGN IN?</a>
+						</div>
 							</div>
 						</div>
-						<div class="text-center text-light">
-							<a href="index.php" class="text-light">Sign in?</a>
-						</div>
+						
 					</div>
 				</div>
 			</div>
