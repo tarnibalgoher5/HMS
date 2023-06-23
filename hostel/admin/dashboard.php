@@ -40,7 +40,9 @@ check_login();
 				<div class="row">
 					<div class="col-md-12">
 
-						<h2 class="page-title">Dashboard</h2>
+						<h2 class="page-title" style="
+						font-size:25px;  margin-top: 10%;
+						">Dashboard</h2>
 
 						<div class="row">
 							<div class="col-md-12">
@@ -59,11 +61,12 @@ $stmt->fetch();
 $stmt->close();
 ?>
 
-													<div class="stat-panel-number h1 "><?php echo $count;?></div>
-													<div class="stat-panel-title text-uppercase"> Students</div>
+										<div class="stat-panel-number h1 "><?php echo $count;?></div>
+										<div class="stat-panel-title text-uppercase"> Students</div>
 												</div>
 											</div>
-											<a href="manage-students.php" class="block-anchor panel-footer">Full Detail <i class="fa fa-arrow-right"></i></a>
+										<a href="manage-students.php" class="block-anchor panel-footer">
+											Full Detail <i class="fa fa-arrow-right"></i></a>
 										</div>
 									</div>
 									<div class="col-md-3">

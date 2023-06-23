@@ -94,11 +94,13 @@ a:hover {
 *      Background Colors        *
 ****************************/
 .bk-primary {
-  background: #325d88;
+  background:  #415A77;
 }
+
 .bk-success {
-  background: #93c54b;
+  background: #778DA9;
 }
+
 .bk-warning {
   background: #f47c3c;
 }
