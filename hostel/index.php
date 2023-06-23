@@ -82,7 +82,7 @@ return true;
 				<div class="row">
 					<div class="col-md-12">
 					
-						<h2 class="page-title">User Login </h2>
+						<h2 class="page-title" style="font-weight: 700; line-height:1.8;">User Login </h2>
 
 						<div class="row">
 					<div class="col-md-6 col-md-offset-3">
@@ -90,19 +90,21 @@ return true;
 							<div class="col-md-8 col-md-offset-2">
 							
 								<form action="" class="mt" method="post">
-									<label for="" class="text-uppercase text-sm">Email</label>
-									<input type="text" placeholder="Email" name="email" class="form-control mb">
-									<label for="" class="text-uppercase text-sm">Password</label>
+									<label for="" class="text-uppercase text-sm" style="font-size: 15px;" style="font-size: 15px;">Email</label>
+									<input type="text" placeholder="Email"style="font-size: 15px;" name="email" class="form-control mb">
+									<label for="" class="text-uppercase text-sm" style="font-size: 15px;">Password</label>
 									<input type="password" placeholder="Password" name="password" class="form-control mb">
 									
 
-									<input type="submit" name="login" class="btn btn-primary btn-block" value="login" >
+									<input type="submit" name="login" class="btn btn-primary btn-block" 
+									style="padding: 20px 25px;border-radius: 1.75rem; font-size:20px; 
+									margin-right:15px; margin-bottom:10px; background-color:green; line-height:.5rem; " value="LOGIN" >
+
+									<a href="forgot-password.php" style="color:blue; text-align:centre; padding-left:30%; margin:7px 7px;">Forgot password?</a>
 								</form>
 							</div>
 						</div>
-						<div class="text-center text-light" style="color:black;">
-							<a href="forgot-password.php" style="color:black;">Forgot password?</a>
-						</div>
+						
 					</div>
 				</div>
 						</div>

@@ -61,21 +61,23 @@ return true;
 			<div class="container-fluid">
 
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12" style="">
 					
-						<h2 class="page-title">Student Registration </h2>
+					<div class="col-md-12">	<h2 class="page-title" style="font-weight: 700; line-height:1.8 
+">Student Registration </h2></div>
 
 						<div class="row">
-							<div class="col-md-12">
+							<div class="col-md-10" style="align-content: center; padding-left:20px">
 								<div class="panel panel-primary">
-									<div class="panel-heading">Fill all Info</div>
+									<div class="panel-heading" style="font-size: 20px;
+  text-align: center;">Fill all Info</div>
 									<div class="panel-body">
 			<form method="post" action="" name="registration" class="form-horizontal" onSubmit="return valid();">
 											
 										
 
 <div class="form-group">
-<label class="col-sm-2 control-label"> Registration No : </label>
+<label class="col-sm-2 control-label" style="font-size: 15px;"> Registration No : </label>
 <div class="col-sm-8">
 <input type="text" name="regno" id="regno"  class="form-control" required="required" >
 </div>
@@ -149,9 +151,15 @@ return true;
 
 
 
-<div class="col-sm-6 col-sm-offset-4">
-<button class="btn btn-default" type="submit">Cancel</button>
-<input type="submit" name="submit" Value="Register" class="btn btn-primary">
+<div class="col-md-6 col-sm-offset-4"> 
+
+<input type="submit" style="padding: 15px 25px; border-radius: 1.75rem; font-size:15px;  line-height:.5rem;
+margin-right:15px; background-color:green;" 
+name="submit" Value="Register" class="btn btn-primary">
+
+<button class="btn btn-default"  style="padding: 15px 25px;border-radius: 1.75rem; font-size:15px; line-height:.5rem;""
+ type="submit">Cancel</button>
+
 </div>
 </form>
 
