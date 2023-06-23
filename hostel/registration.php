@@ -67,7 +67,7 @@ return true;
 ">Student Registration </h2></div>
 
 						<div class="row">
-							<div class="col-md-10" style="align-content: center; padding-left:20px">
+							<div class="col-md-12" style="align-content: center; padding-left:20px">
 								<div class="panel panel-primary">
 									<div class="panel-heading" style="font-size: 20px;
   text-align: center;">Fill all Info</div>
