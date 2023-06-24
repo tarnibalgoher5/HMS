@@ -178,7 +178,7 @@ echo $dr*$fpm;
 
 
 <?php
-$cnt=$cnt+1; -->
+$cnt=$cnt+1; 
 } ?>
 </tbody>
 </table>
@@ -203,4 +203,4 @@ $cnt=$cnt+1; -->
 
 </body>
 
-</html> -->
+</html> 

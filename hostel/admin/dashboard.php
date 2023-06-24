@@ -49,7 +49,7 @@ check_login();
 								<div class="row">
 									<div class="col-md-3">
 										<div class="panel panel-default">
-											<div class="panel-body bk-primary text-light">
+											<div class=" panel-body " style="background: #778DA9;">
 												<div class="stat-panel text-center">
 
 <?php
@@ -71,7 +71,7 @@ $stmt->close();
 									</div>
 									<div class="col-md-3">
 										<div class="panel panel-default">
-											<div class="panel-body bk-success text-light">
+											<div class=" panel-body ">
 												<div class="stat-panel text-center">
 <?php
 $result1 ="SELECT count(*) FROM rooms ";
