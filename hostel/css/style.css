@@ -158,6 +158,15 @@ a:hover {
 .panel {
   overflow: hidden;
 }
+/* PROFILE PAGE FORM LABELS */
+.control-label{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+
+
 /****************************
 *      Border        *
 ****************************/
@@ -476,7 +485,32 @@ li {
 /* Social Button Modifications */
 .btn {
   text-transform: none;
+ 
+  
 }
+/* UPDATE PROFILE BTN  */
+.update-btn{
+background-color: white; 
+color: black; 
+padding: 20px 25px;
+border-radius: 1.5rem; 
+font-size:20px; 
+margin:10px 15px 10px 7px;
+line-height:.5rem;
+width:50%;
+/* border-color:#4CAF50 ; */
+border-color:green;
+
+}
+
+.update-btn:hover{
+  /* background-color: #4CAF50; */
+  background-color: green;
+  color: white;
+}
+
+/*  */
+
 .btn-social > :first-child {
   width: 42px;
   line-height: 46px;
@@ -484,6 +518,13 @@ li {
 .btn-social {
   padding-left: 58px;
 }
+
+.btn-primary{
+  border: 2px solid #4CAF50;
+}
+
+
+
 /* Circle buttons */
 .btn-circle {
   width: 30px;

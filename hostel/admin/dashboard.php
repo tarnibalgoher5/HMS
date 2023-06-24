@@ -161,7 +161,7 @@ $stmt2->close();
 </body>
 
 <div class="foot"><footer>
-<p> Brought To You By <a href="https://code-projects.org/">Code-Projects</p>
+<!-- <p> Brought To You By <a href="https://code-projects.org/">Code-Projects</p> -->
 </footer> </div>
 
 

@@ -76,12 +76,13 @@ $aid=$_SESSION['id'];
 	  	?>	
 				<div class="row">
 					<div class="col-md-12">
-						<h2 class="page-title"><?php echo $row->firstName;?>'s&nbsp;Profile </h2>
+						<h2 class="page-title" style="font-weight:600; font-size:35px;">
+						<?php echo $row->firstName;?>'s&nbsp;Profile </h2>
 
 						<div class="row">
 							<div class="col-md-12">
 								<div class="panel panel-primary">
-									<div class="panel-heading">
+									<div class="panel-heading" style="background-color:#778DA; font-size:20px;">
 
 Last Updation date : &nbsp; <?php echo $row->updationDate;?> 
 </div>
@@ -157,7 +158,8 @@ Last Updation date : &nbsp; <?php echo $row->updationDate;?>
 
 <div class="col-sm-6 col-sm-offset-4">
 
-<input type="submit" name="update" Value="Update Profile" class="btn btn-primary">
+<input type="submit" name="update" Value="UPDATE" class="update-btn " 
+					style="">
 </div>
 </form>
 

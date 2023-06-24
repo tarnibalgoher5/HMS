@@ -78,13 +78,15 @@ return true;
 				<div class="row">
 					<div class="col-md-12">
 					
-						<h2 class="page-title">Change Password </h2>
+						<h2 class="page-title" style="font-weight:600; font-size:35px;">Change Password </h2>
 	
 						<div class="row">
 	
 								<div class="col-md-10">
-								<div class="panel panel-default">
-									<div class="panel-heading">
+								<div class="panel panel-primary panel-default">
+									<div class="panel-heading" style="background-color:#778DA; 
+									color:white;
+									font-size:20px;">
 <?php $result ="SELECT passUdateDate FROM userregistration WHERE id=?";
 $stmt = $mysqli->prepare($result);
 $stmt->bind_param('i',$ai);
@@ -122,8 +124,20 @@ $stmt -> fetch(); ?>
 
 
 												<div class="col-sm-6 col-sm-offset-4">
-													<button class="btn btn-default" type="submit">Cancel</button>
-													<input type="submit" name="changepwd" Value="Change Password" class="btn btn-primary">
+													<button class="btn btn-default" type="submit">
+														Cancel</button>
+													
+													<input type="submit" name="changepwd" 
+													Value="CHANGE PASSWORD" class="btn btn-primary" style="background-color: white; 
+color: black; 
+padding: 20px 25px;
+border-radius: 1.5rem; 
+font-size:15px; 
+margin:10px 15px 10px 7px;
+line-height:.5rem;
+width:50%;
+/* border-color:#4CAF50 ; */
+border-color:green;">
 											</div>
 
 										</form>
