@@ -150,8 +150,19 @@ $stmt -> fetch(); ?>
 
 
 												<div class="col-sm-6 col-sm-offset-4">
-													<button class="btn btn-default" type="submit">
-														Cancel</button>
+													<button class="btn .btn-cancel" 
+													style=" background-color: red; 
+  color: black; 
+  padding: 20px 25px;
+  font-family:inherit;
+  border-radius: 3rem; 
+  font-size:20px; 
+  margin:10px 5px 10px 7px;
+  line-height:.5rem;
+  border-color:red;
+  width:30%;"
+													type="submit">
+														CANCEL</button>
 													
 													<input type="submit" name="changepwd"  
 													Value="CHANGE PASSWORD" class=" update-btn

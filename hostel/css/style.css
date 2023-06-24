@@ -511,6 +511,10 @@ border-color:green;
   color: white;
 }
 
+.btn-cancel:hover{
+  background-color: black;
+  color: white;
+}
 /*  */
 
 .btn-social > :first-child {
