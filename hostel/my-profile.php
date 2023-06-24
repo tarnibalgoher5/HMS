@@ -57,7 +57,8 @@ return true;
 }
 </script>
 </head>
-<body>
+
+<body >
 	<?php include('includes/header.php');?>
 	<div class="ts-main-content">
 		<?php include('includes/sidebar.php');?>
@@ -75,7 +76,7 @@ $aid=$_SESSION['id'];
 	  {
 	  	?>	
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12" style="background-image: url('img\msi.jpg');" >
 						<h2 class="page-title" style="font-weight:600; font-size:35px;">
 						<?php echo $row->firstName;?>'s&nbsp;Profile </h2>
 
@@ -94,7 +95,7 @@ Last Updation date : &nbsp; <?php echo $row->updationDate;?>
 								
 
 <div class="form-group">
-<label class="col-sm-2 control-label"> Registration No : </label>
+<label class="col-sm-2 control-label"> Enrollment No  </label>
 <div class="col-sm-8">
 <input type="text" name="regno" id="regno"  class="form-control" required="required" value="<?php echo $row->regNo;?>" >
 </div>
@@ -102,28 +103,28 @@ Last Updation date : &nbsp; <?php echo $row->updationDate;?>
 
 
 <div class="form-group">
-<label class="col-sm-2 control-label">First Name : </label>
+<label class="col-sm-2 control-label">First Name  </label>
 <div class="col-sm-8">
 <input type="text" name="fname" id="fname"  class="form-control" value="<?php echo $row->firstName;?>"   required="required" >
 </div>
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Middle Name : </label>
+<label class="col-sm-2 control-label">Middle Name  </label>
 <div class="col-sm-8">
 <input type="text" name="mname" id="mname"  class="form-control" value="<?php echo $row->middleName;?>"  >
 </div>
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Last Name : </label>
+<label class="col-sm-2 control-label">Last Name </label>
 <div class="col-sm-8">
 <input type="text" name="lname" id="lname"  class="form-control" value="<?php echo $row->lastName;?>" required="required">
 </div>
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Gender : </label>
+<label class="col-sm-2 control-label">Gender  </label>
 <div class="col-sm-8">
 <select name="gender" class="form-control" required="required">
 <option value="<?php echo $row->gender;?>"><?php echo $row->gender;?></option>
@@ -136,7 +137,7 @@ Last Updation date : &nbsp; <?php echo $row->updationDate;?>
 </div>
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Contact No : </label>
+<label class="col-sm-2 control-label">Contact No  </label>
 <div class="col-sm-8">
 <input type="text" name="contact" id="contact"  class="form-control" maxlength="10" value="<?php echo $row->contactNo;?>" required="required">
 </div>
@@ -144,7 +145,7 @@ Last Updation date : &nbsp; <?php echo $row->updationDate;?>
 
 
 <div class="form-group">
-<label class="col-sm-2 control-label">Email id: </label>
+<label class="col-sm-2 control-label">Email id</label>
 <div class="col-sm-8">
 <input type="email" name="email" id="email"  class="form-control" value="<?php echo $row->email;?>" readonly>
 <span id="user-availability-status" style="font-size:12px;"></span>
@@ -159,7 +160,7 @@ Last Updation date : &nbsp; <?php echo $row->updationDate;?>
 <div class="col-sm-6 col-sm-offset-4">
 
 <input type="submit" name="update" Value="UPDATE" class="update-btn " 
-					style="">
+					style="width:50%;">
 </div>
 </form>
 

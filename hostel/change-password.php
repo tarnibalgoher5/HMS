@@ -95,29 +95,55 @@ $stmt -> bind_result($result);
 $stmt -> fetch(); ?>
 
 									Last Updation Date:&nbsp;<?php echo $result; ?> </div>
-									<div class="panel-body">
-				<form method="post" class="form-horizontal" name="changepwd" id="change-pwd" onSubmit="return valid();">
+									<div class="panel-body" style="padding-top:0; padding-bottom:25px;">
+				<form method="post" class="form-horizontal" name="changepwd" 
+				id="change-pwd" onSubmit="return valid();">
     <?php            if(isset($_POST['changepwd']))
 { ?>
-											<p style="color: red"><?php echo htmlentities($_SESSION['msg']); ?><?php echo htmlentities($_SESSION['msg']=""); ?></p>
+											<p style="color: red"><?php echo htmlentities($_SESSION['msg']); ?>
+											<?php echo htmlentities($_SESSION['msg']=""); ?></p>
                                             <?php } ?>
 											<div class="hr-dashed"></div>
 											<div class="form-group">
-												<label class="col-sm-4 control-label">old Password </label>
+
+												<label class="col-sm-4 control-label" 
+												style="margin-right: 0px;
+    											padding-right: 0px;font-size: 15px;
+    font-weight: 600;">Old Password </label>
+
+
 												<div class="col-sm-8">
-				<input type="password" value="" name="oldpassword" id="oldpassword" class="form-control" onBlur="checkpass()" required="required">
-									 <span id="password-availability-status" class="help-block m-b-none" style="font-size:12px;"></span> </div>
+											<input type="password" value="" name="oldpassword"
+											 id="oldpassword" class="form-control" 
+											 style="padding-left:0; padding-top:0;" 
+											 onBlur="checkpass()" 
+											 required="required">
+									 <span id="password-availability-status"
+									  class="help-block m-b-none" style="font-size:12px;"></span> </div>
 											</div>
+
 											<div class="form-group">
-												<label class="col-sm-4 control-label">New Password</label>
+												<label class="col-sm-4 control-label" 
+												style="margin-right: 0px;
+    											padding-right: 0px; font-size: 15px;
+    font-weight: 600;">New Password</label>
 												<div class="col-sm-8">
-											<input type="password" class="form-control" name="newpassword" id="newpassword" value="" required="required">
+											<input type="password" class="form-control" 
+											name="newpassword" id="newpassword" 
+											style="padding-left:0; padding-top:0;"
+											value="" required="required">
 												</div>
 											</div>
 <div class="form-group">
-									<label class="col-sm-4 control-label">Confirm Password</label>
+									<label class="col-sm-4 control-label"
+									style="margin-right: 0px;
+    											padding-right: 0px; font-size: 15px;
+    font-weight: 600;">Confirm Password</label>
 									<div class="col-sm-8">
-				<input type="password" class="form-control" value="" required="required" id="cpassword" name="cpassword" >
+				<input type="password" class="form-control" value="" 
+				style="padding-left:0; padding-top:0;"
+				required="required" 
+				 id="cpassword" name="cpassword" >
 												</div>
 											</div>
 
@@ -127,17 +153,13 @@ $stmt -> fetch(); ?>
 													<button class="btn btn-default" type="submit">
 														Cancel</button>
 													
-													<input type="submit" name="changepwd" 
-													Value="CHANGE PASSWORD" class="btn btn-primary" style="background-color: white; 
-color: black; 
-padding: 20px 25px;
-border-radius: 1.5rem; 
-font-size:15px; 
-margin:10px 15px 10px 7px;
-line-height:.5rem;
-width:50%;
-/* border-color:#4CAF50 ; */
-border-color:green;">
+													<input type="submit" name="changepwd"  
+													Value="CHANGE PASSWORD" class=" update-btn
+													 "
+													style="width:60%;"
+													 >
+													 
+
 											</div>
 
 										</form>
